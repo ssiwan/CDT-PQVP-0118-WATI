@@ -97,9 +97,98 @@ Initially the expandable list will be shown with the predefined text which can b
 To make it cleaner, it is possible to create different Access Roles for different types of users for the left panel “User Access”:
 
  ![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a2_2.png) 
+ ----------------------
  
- 
- 
+ **b.  Knowledge Sharing**
+
+**Allow for the promotion of process and information across systems and channels, as requireds** 
+
+There are two tools implemented for the promotion of content process and information across systems and channels.
+
+*Promotion of Process:* Promotion of process is supported by “Workflow”. The tool allows the author to create the content either graphically or using HTML tags and trigger the workflow process for necessary review/corrections process assigned to specific users. The “Workflow” can be configured for auto-escalation and eMail notification. At the end of the workflow process, the blog/Knowledge content will be ready to Publish.
+
+*Promotion of information across systems and channels:* It is possible to publish knowledge content directly or through Workflow process depending on access right configured. The content can be published with scope of Private or Public. “Private” option, published content only to the users of the organization whereas “Public” option, publishes the content to entire world through standard social media and other SEO channels. The Publish Options can be calendar driven to publish at a certain chosen future time. 
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a3_1.png)
+
+
+
+**Have the ability to create user-defined rules for creation (e.g., mandatory fields) and lifecycle management (e.g., who, how, when revised and updated)**
+
+Selection of the left side Menu “Posts” lists all the posts, with auto populated mandatory field information of who-created, when-last-revised and updated and other important information, including taxonomy i.e. category of posts and all the tags associated with the Content. 
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a4_1.png)
+
+Workflow also allows to customize the rules as required. At each workflow step level, it is possible to configure the next step together with a custom eMail definition to process.
+
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a4_2.png)
+
+
+**Trigger escalation processes (e.g., automated emails/texts to approvers, reminders) for lifecycle activities** 
+
+The Workflow InBox – shows the workflow dynamics as workflows are delegated. Inbox in workflows right panel menu shows the Work delegated. 
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a5_1.png)
+
+Workflow Settings, contain Email Tab which configures the Email settings:
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a5_2.png)
+
+
+The escalation frequency of intimation can be set through the following settings:
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a5_3.png)
+
+**c. Knowledge Development**
+
+**Have the ability to update and improve KAs and access the value of usage as input to predicting new records or record types**
+
+When creating content, it is possible to refer to other similar and related posts by automatically matching the keywords used in the content. The Content edit process also recommends the keywords which are more popular in the content authored areas. The related posts button is available on the right side next to “Publish” button which brings up the internal or external world search by keywords for related posts. 
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a6_1.png)
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a6_2.png)
+
+
+
+**Show innovation by learning from existing records (e.g., types, content, usage) and prompting to create new KAs**
+
+The contextly settings can be configured so as to prompt to search and pick related posts before publishing. These existing records can be used for modifying and updating the content making it more up-to-date and rich in content.
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a7_1.png)
+
+
+# Technical Approach 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
  
