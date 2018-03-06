@@ -14,11 +14,12 @@
 ------------------------
 # Working Prototype Functionality
 
-West Advanced Technologies, Inc. (WATI) developed the “Knowledge Management Tool” (KMT) with the following required functions. 
+West Advanced Technologies, Inc. (WATI) developed the “Knowledge Management Tool” (KMT) with the following functions as required by DOT. 
 
-**a.  Knowledge Creation**
+------------------------
+# a.  Knowledge Creation
 
-**Create “knowledge articles” (KAs) - These can be original records (e.g., specific work instructions or content) and/or packages of content, including documents, user-configurable forms, tables, and workflows** 
+**1. Create “knowledge articles” (KAs) - These can be original records (e.g., specific work instructions or content) and/or packages of content, including documents, user-configurable forms, tables, and workflows** 
 
 The Page or Post Creation is helped by Editor which allows to layout the panel area into rows and columns. “Add Row” allows to add a row with specified number of columns of desired/variables size. Each of the layout area can include different UI widgets. Further Pages can include Posts and Post can Include Pages. ![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a1_1.png)
 
@@ -43,7 +44,8 @@ Tables can be created using Rich Text Editor option of “Insert Table”.  “T
 
 The following Menu (“TablePress”) on the left Panel allows to create tables normally or through importwith data in different formats (CSV, HTML, JSON, XLS, XLSX): 
 
-|![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a1_3_1.png)  | ![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a1_3_2.png) |
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a1_3_1.png)  
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a1_3_2.png) 
  
  TablePressWidget Button on the RichText Editor can be seen as in the following diagram:
  
@@ -66,7 +68,7 @@ Once the workflow is submitted, it the history can be tracked through “Workflo
 
 
 
- **Multiple levels and formats of information in KAs (e.g., bullet points for senior technical levels, scripted specific details for junior/non-technical staff)**
+ **2. Multiple levels and formats of information in KAs (e.g., bullet points for senior technical levels, scripted specific details for junior/non-technical staff)**
  
  During the creation of Knowledge Articles, specific content can be enclosed with Restricting the content access using the following text inline in the body of the content:
  
@@ -92,16 +94,16 @@ Initially the expandable list will be shown with the predefined text which can b
 
 
 
-**Allow for role-based security access, to allow control of access and level of information by login**
+**3. Allow for role-based security access, to allow control of access and level of information by login**
 
 To make it cleaner, it is possible to create different Access Roles for different types of users for the left panel “User Access”:
 
  ![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a2_2.png) 
  ----------------------
  
- **b.  Knowledge Sharing**
+ # b.  Knowledge Sharing
 
-**Allow for the promotion of process and information across systems and channels, as requireds** 
+**1. Allow for the promotion of process and information across systems and channels, as requireds** 
 
 There are two tools implemented for the promotion of content process and information across systems and channels.
 
@@ -113,7 +115,7 @@ There are two tools implemented for the promotion of content process and informa
 
 
 
-**Have the ability to create user-defined rules for creation (e.g., mandatory fields) and lifecycle management (e.g., who, how, when revised and updated)**
+**2. Have the ability to create user-defined rules for creation (e.g., mandatory fields) and lifecycle management (e.g., who, how, when revised and updated)**
 
 Selection of the left side Menu “Posts” lists all the posts, with auto populated mandatory field information of who-created, when-last-revised and updated and other important information, including taxonomy i.e. category of posts and all the tags associated with the Content. 
 
@@ -125,7 +127,7 @@ Workflow also allows to customize the rules as required. At each workflow step l
 ![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a4_2.png)
 
 
-**Trigger escalation processes (e.g., automated emails/texts to approvers, reminders) for lifecycle activities** 
+**3. Trigger escalation processes (e.g., automated emails/texts to approvers, reminders) for lifecycle activities** 
 
 The Workflow InBox – shows the workflow dynamics as workflows are delegated. Inbox in workflows right panel menu shows the Work delegated. 
 
@@ -140,9 +142,10 @@ The escalation frequency of intimation can be set through the following settings
 
 ![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/a5_3.png)
 
-**c. Knowledge Development**
+------------------------
+# c. Knowledge Development
 
-**Have the ability to update and improve KAs and access the value of usage as input to predicting new records or record types**
+**1. Have the ability to update and improve KAs and access the value of usage as input to predicting new records or record types**
 
 When creating content, it is possible to refer to other similar and related posts by automatically matching the keywords used in the content. The Content edit process also recommends the keywords which are more popular in the content authored areas. The related posts button is available on the right side next to “Publish” button which brings up the internal or external world search by keywords for related posts. 
 
@@ -152,7 +155,7 @@ When creating content, it is possible to refer to other similar and related post
 
 
 
-**Show innovation by learning from existing records (e.g., types, content, usage) and prompting to create new KAs**
+**2. Show innovation by learning from existing records (e.g., types, content, usage) and prompting to create new KAs**
 
 The contextly settings can be configured so as to prompt to search and pick related posts before publishing. These existing records can be used for modifying and updating the content making it more up-to-date and rich in content.
 
