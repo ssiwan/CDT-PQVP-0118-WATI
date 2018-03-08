@@ -164,11 +164,28 @@ The contextly settings can be configured so as to prompt to search and pick rela
 
 # Technical Approach 
 
+1. code flow from client UI, to JavaScript library, to REST service to database, pointing to code in the GitHub repository.   
+
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/KMT-ServerView.png)
 
 
 
+**a. Code flow**
+Code in the GITHub is available at the following URL: https://github.com/watipqvp/CDT-PQVP-0118-WATI
+The code organized in the root folder **CDT-PQVP-0118-WATI** consists of:
+- wp-admin:    
+- wp-content:  
+- wp-includes: 
 
+Some of the important files in root folder include:
+- wp-config.php: Contains DB credentials and authorization keys.
+- wp-login.php:  User authentication operations code such as password handling.
+- wp-mail.php:   Generates Wordpress post messages from the Incoming User emails.
+- swagger.json:  Open API REST specifications made available to web clients.
 
+**b. DB Schema**
+
+**c. Deployment Environment**
 
 
 
