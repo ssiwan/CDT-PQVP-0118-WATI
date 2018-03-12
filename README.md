@@ -205,7 +205,34 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 - Frequency of Testing by End-Users: Continuous through-out development [Jenkins Build Job – PhpUnits of PlugIns]
 
 *Play-2*
+- Current Approach: The knowledge content in the form of Blogs can be searched internally or external world through keyword(s)[wp-autosearch PlugIn] 
+- Pain points: There are no known Pain points. Knowledge collaboration is a concept that eliminates the major pain-point of rework. 
+- Place of tool in overall big picture: Off-the-shelf plug-and-play Customization to handle operations privately and only go public when required [PlugIns Folder]
+- Metrics of Tool Services: SEO tools are in-built to provide the metrics. [google-analytics-for-wordpress, cms-tree-page-view PlugIn]
 
+*Play-3*
+- Primary User Tasks: 
+    -- Add the content intelligently with help of suggestive tools, multi-media and great rich text editors. 
+    -- Share the information to enable search the knowledge. 
+    -- New Knowledge Development through proactive suggestions and recommendations.
+       [GitHub Root - CDT-PQVP-0118-WATI]
+- Tool Language: Language used is plain and universal with ability to easily custom configure to a different language of choice [wp-admin/includes]
+- Supported Languages:  US English and Web compliance GUI with millions of installations all over the world. [wp-admin/includes] 
+- User Help: Entire application is developed through graphical icons for knowledge creation and universally recognized icons for general operations. User can reach WATI admin through a simple eMail. [embed-swagger PlugIn, WPForms]
+- Tool UI’s similarity to other government Services: Very standard multi-tier RESTful framework just as other Government services – platform agnostic virtual infrastructure and off-the-shelf opensource software tools. [wp-content/themes]
+
+*Play-4*
+- Tool MVP Status: Prototype is ready and made public to CDT. [http://96.67.213.65/]
+- Production Deployment Duration: Few minutes of deployment process [Jenkins]
+- Iteration/Sprint Duration: 3 weeks of duration with 22 tasks approximately 150-200 hours of effort. [Kanban plug in]
+- Version control system: GitHub with SourceTree.
+- Bug Tracking: Daily Scrum meetings – email circulation. [Minutes of Meetings, Kanban]
+- Feature Backlog Management: Built-in Kanban board is used for backlog and sprint management. [Kanban]
+- Feature and bug backlog review/reprioritization: Review and task prioritization of feature and bug backlog is done multiple times every day. [Kanban]
+- User feedback Collection and Service Improvement: eMail is used to collect the user feedback [WPForms, MailBank PlugIn]
+- Gaps found during usability testing: Some Gaps for example are: Ability to hook up a Jabber/calling phone service, ability to chat with bots, Trouble ticket logging system. etc., 
+
+*Play-5*
 
 
 
