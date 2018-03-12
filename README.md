@@ -212,9 +212,9 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 
 *Play-3*
 - Primary User Tasks: 
-    -- Add the content intelligently with help of suggestive tools, multi-media and great rich text editors. 
-    -- Share the information to enable search the knowledge. 
-    -- New Knowledge Development through proactive suggestions and recommendations.
+    - Add the content intelligently with help of suggestive tools, multi-media and great rich text editors. 
+    - Share the information to enable search the knowledge. 
+    - New Knowledge Development through proactive suggestions and recommendations.
        [GitHub Root - CDT-PQVP-0118-WATI]
 - Tool Language: Language used is plain and universal with ability to easily custom configure to a different language of choice [wp-admin/includes]
 - Supported Languages:  US English and Web compliance GUI with millions of installations all over the world. [wp-admin/includes] 
@@ -233,6 +233,102 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 - Gaps found during usability testing: Some Gaps for example are: Ability to hook up a Jabber/calling phone service, ability to chat with bots, Trouble ticket logging system. etc., 
 
 *Play-5*
+- Scope of the project and the key deliverables:Key deliverables are public access to the 
+  - Source code [GitHub Root - CDT-PQVP-0118-WATI]
+  - Hosted tool URL with initial logins [http:// 96.67.213.65/wp-login.php]
+  - Readme.md to help easily customize/enhance and install the product as needed [Readme.MD]
+- Milestones and Frequency:Knowledge Creation, Share Knowledge, Develop Knowledge are key milestones. Twice Weekly are milestones. [Kanban]
+- Performance Metrics: Compliance to given disability and other guidelines[google-analytics-for-wordpress, cms-tree-page-view PlugIn]
+
+*Play-6*
+- Product Owner: WATI Vice President – Krishna.Chintalapathi
+- Product Owner Project Authority: The product owner is also product administrator user.
+- Add or remove a feature from the service: Product Administrator uses can use Left Panel – “PlugIns” to add/remove any service. [PlugIns Folder]
+
+*Play-7*
+- WATI, headed by Srinivas.Veeramasu, works exclusively on Government projects.
+
+*Play-8*
+- Choice of development stack: Wordpress web framework, MySQL DB, Docker/Hyper-V virtual machine. The choice of technologies is as per requirement for Opensource technologies with off-the shelf modules [IP: 96.67.213.65]
+- Choice of databases: MySQL DB, because it is opensource. [WP-DBManager, Ari Adminer WordPress Database Manager PlugIns]
+- Learning time for a new development team: 2 to 3 days of training for someone who has basic web technologies experience. [ReadMe.md]
+
+*Play-9*
+- Service hosting: Hosted on WATI server farm in Los Angeles, CA. 
+- Hardware platform: 4 TB hard disk, 4 CPU Server machine. 
+- Demand or usage pattern for the service: Can easily support 10+ concurrent users. Total users can be much higher.  There can be some bottleneck with email traffic.
+- Service impact due to surge in traffic or load:Depends on network and hardware capabilities [Jetpack plugin]
+- Hosting environment capacity:We can scale to support any bandwidth by moving to cloud [Jetpack plugin]
+- Duration to provision a new resource: Provisioning:
+    - Software will take no more than a couple of hours. 
+    - Hardware infrastructure can take few days. 
+    - Cloud solution will take tentatively maximum a day. 
+   [Load Balancer can be configured as per need]
+- Service scalability on demand:The system is loosely coupled REST API solution, it can easily scale to any bandwidth. 
+[ Multi site can be configures as per need]
+- Service Infrastructure Tariff: Cloud tariff is based on Hourly rate. Tool is hosted on-premise at WATI server farm. 
+[AWS can be a choice for high performing cloud environment]
+- Is the service Multi-Site:The service can be configured and hosted as multi-site -- multiple regions, zones. The solution is presently hosted as single site. 
+- Service outage on catastrophic disaster:Service should be restorable immediately after the disaster situation is cleared.  
+[AWS cloud deployment is a choice]
+- Impact of a prolonged downtime window:Solution can be easily hosted on cloud in the event of prolonged downtime.
+[AWS cloud deployment is a choice]
+- Built-In Data redundancy and impact of a catastrophic data loss:Implemented infrastructure/tool has hot backup.
+[Database Backup Tool]
+- Reach to Hosting Environment Personnel:Time from person hosting provider is variable between 0 to few hours. [wpforms plugin - Contact Form address to cloud hosting contact personnel]
+
+*Play-10*
+-Code Coverage by automated testing: Coverage is 100% for pure PHP plugIns. Other hybrid PlugIns are unit tested manually thoroughly. [Gravitate Tester PlugIn]
+- Bug fix cycle duration: A bug, when Identified will be resolved in few hours not more than a day. Functionality or feature enhancement can take from 1 to 3 days. [Kanban]
+- New Feature duration: New features will be configured using available open-source tools instead of coding from scratch. New functionality to code, can be developed in short sprints of few weeks duration.  [Kanban]
+- Frequency of builds: Build during development phase are created daily. [Jenkins] 
+- Test tools Usage: Jenkins CI/CD Plug-In tools are used to testing. [Gravitate Tester]
+- Deployment automation or continuous integration tools: Jenkins has been used to continuous integration. [Jenkins]
+- Estimated maximum number of concurrent users: No limit, system will scale as per the need. [SEO Metrics]
+- Simultaneous users: Simultaneous User testing is validated through plug-ins. [Google PageSpeed Insights, SEO Metrics]
+- Service performance during exceeded target usage volume: Users will get graceful timeout message as response. 
+- Scaling strategy on sudden demand increase: System will proportionately use resources for optimum performance. 
+
+*Play-11*
+- User notification of collection of personal data: Users configuration module collects basic user demographics. User acceptance is mandatory before storing details. [Users Forms] 
+- Collection of Information: The user data is just the minimum required to maintain user account and it is highly confidential. [Users Forms]
+- User access to correct, delete, or remove personal information:Only administrator and User himself have the access to information for correction or modification. User deletion can be done only by Admin. [Users List]
+- Personal information security: No personal information will be shared with other services, people, or partners. [Users Forms]
+- Security Vulnerability Testing: Security testing, firewall port monitoring is done through a plug-In and also using Anti-Virus. 
+[Wordfence Security – Firewall & Malware PlugIn]
+- Reporting a security issue: Through an eMail to the contact person, user can report a security issue. [WPForms]
+
+*Play-12*
+- Key metrics for the service: Number of users, operations, duration of usage are some of the important metrics out of all SEO metrics which are captured. [Google Analytics PlugIn]
+- Performance of Metrics over the life of the service: The metrics are collected over the life of service across all operations and users.
+- System monitoring tools: The product is in-built with SEO tools which monitor the metrics. General server operations are measurable through OS standard tools for memory, CPU cycle, stack, heap etc.,
+- Targeted average service response time in seconds: The response time duration is dependent based on load, but within required limits. 
+- Average response time and percentile breakdown: The response time duration is variable and dependent on load.
+- Service Started Versus Failed Status: System SEO Metrics shows the number of failed transactions.
+- Service’s monthly uptime target: 99.99 is our monthly uptime target. 
+- Service’s monthly uptime -- Including/Excluding scheduled maintenance: 99.99% uptime in either case with or without maintenance window.
+- Automated alerts on incidents: Email alerts when a service goes down for some reason [PowerShell script, cloud notification]
+- Post incident report process: We look through the Log and Metrics to assess problem condition to determine the resolution.
+- Tools to measure user behavior: Intelligent plugins constantly learn to improve on user behavior. 
+- Tools or technologies are used for A/B testing: Web app automated testing will be used using open source technologies to determine performance of one-webpage over the other. 
+- Customer Satisfaction: Through customer feedback of issues, customer satisfaction is measured. [WPForms]
+
+*Play-13*
+- Collection of user feedback for bugs and issues: Administrator can configure an opensource PlugIn of choice which can allow users to log defects and track status. [WPForms ]
+- API capabilities, uses and documentation: All the data commit and retrieve operations can be done through REST API and swagger/OpenAPI documentation has the details. [Embed Swagger PlugIn]
+- Is the codebase not released under an open source license: Entire Code is Open-Source and unobfuscated.
+- Available open source components to the public: All the components are opensource off-shelf plug-play Javascript/PHP modules.
+- Datasets made available to the public: The tool is not dependent on any data sets, so does not include any datasets.
+
+
+
+
+
+
+
+
+
+
 
 
 
