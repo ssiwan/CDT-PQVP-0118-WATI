@@ -13,10 +13,20 @@
 
 ------------------------
 # Working Prototype Functionality
-
-West Advanced Technologies, Inc. (WATI) developed the “Knowledge Management Tool” (KMT) with the following functions as required by DOT. 
+ 
+West Advanced Technologies, Inc. (WATI) developed the Prototype “Knowledge Miner”, the “Knowledge Management Tool” (KMT) with the following functions as required by “California Department of Technology”.
 
 ------------------------
+
+|   |  |
+| ------------- | ------------- |
+| **Tool Hosted IP:**  | http://96.67.213.65/wp-login.php  |
+| **GitHub Code Link:**  | https://github.com/watipqvp/CDT-PQVP-0118-WATI  |
+| **Login in User IDs (Password: temp123)** | admin1, admin2, author1, author2, editor1, editor2, subscriber1, subscriber2, contributor1, contributor2 |
+|   |  |
+
+------------------------
+
 # a.  Knowledge Creation
 
 **1. Create “knowledge articles” (KAs) - These can be original records (e.g., specific work instructions or content) and/or packages of content, including documents, user-configurable forms, tables, and workflows** 
