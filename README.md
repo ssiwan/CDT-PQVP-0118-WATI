@@ -326,12 +326,12 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 
 **c. Technical Approach Requirement Checklist:**
 
-a. WATI President Srinivas (Srinivas@wati.com) is Prototype Signoff Authority.	
+a. WATI VP Krishna.Chintalapathi (krishna@wati.com) is Prototype Signoff Authority.		
 
 b. Five (5) of the labor categories as identified in Attachment B: PQVP AD-DS Labor Category Descriptions; 
- - krishna@wati.com (Product Manager-1)
-	- sivakumar.a@wati.com (Delivery Manager-10)
-	- vaibhav.k@wati.com  (Technical Architect-2)
+ 	- krishna@wati.com (Product Manager-1, Agile Coach -11)
+	- sivakumar.a@wati.com (Delivery Manager-10, Digital Performance Analyst-13)
+	- vaibhav.k@wati.com  (Technical Architect-2, Backend Web Developer -7)
 	- sravanthi.k@wati.com (Frontend Web Developer-6)
 	- vijay@wati.com (Business Analyst – 12) 
 
