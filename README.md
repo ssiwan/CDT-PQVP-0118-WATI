@@ -175,6 +175,7 @@ The contextly settings can be configured so as to prompt to search and pick rela
 # Technical Approach 
   
 **a. Code flow and Deployment**
+
 Code in the GITHub is available at the following URL: https://github.com/watipqvp/CDT-PQVP-0118-WATI
 The code organized in the root folder **CDT-PQVP-0118-WATI** consists of:
 - wp-admin     
@@ -189,7 +190,9 @@ Some of the important files in root folder include:
 
 ![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/KMT-ServerView.png)
 
+
 **b. Tool compliance to US Digital Services Playbook**
+
 
 Note: Whenever Plug in mentioned, it refers to folder wp-content/plugins folder in repository.
 Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/kanban/board?board_id=1
@@ -321,7 +324,7 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 - Datasets made available to the public: The tool is not dependent on any data sets, so does not include any datasets.
 
 
-**c. Technical Approach Requirement Checklist: **
+**c. Technical Approach Requirement Checklist:**
 
 a. WATI President Srinivas (Srinivas@wati.com) is Prototype Signoff Authority.	
 
