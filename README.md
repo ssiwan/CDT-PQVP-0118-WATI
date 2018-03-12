@@ -173,19 +173,13 @@ The contextly settings can be configured so as to prompt to search and pick rela
 
 
 # Technical Approach 
-
-1. code flow from client UI, to JavaScript library, to REST service to database, pointing to code in the GitHub repository.   
-
-![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/KMT-ServerView.png)
-
-
-
-**a. Code flow**
+  
+**a. Code flow and Deployment**
 Code in the GITHub is available at the following URL: https://github.com/watipqvp/CDT-PQVP-0118-WATI
 The code organized in the root folder **CDT-PQVP-0118-WATI** consists of:
-- wp-admin:    
-- wp-content:  
-- wp-includes: 
+- wp-admin     
+- wp-content  
+- wp-includes 
 
 Some of the important files in root folder include:
 - wp-config.php: Contains DB credentials and authorization keys.
@@ -193,13 +187,24 @@ Some of the important files in root folder include:
 - wp-mail.php:   Generates Wordpress post messages from the Incoming User emails.
 - swagger.json:  Open API REST specifications made available to web clients.
 
-**b. DB Schema**
+![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/KMT-ServerView.png)
 
-**c. Deployment Environment**
+**b. Tool compliance to US Digital Services Playbook**
 
+Note: Whenever Plug in mentioned, it refers to folder wp-content/plugins folder in repository.
+Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/kanban/board?board_id=1
 
+*Play-1*
+- Primary Users: Youngsters, Elder People, Disabled persons, both experienced and non-experienced in web technologies operating with different electronic devices [ Users and User AccessRoles PlugIns ]
+- User needs Addressed: User friendly and platform independent for deployment and easy hosting [ SiteOrigin PlugIn, RichTinyMCE PlugIns ]
+- User need for this service: Need for a social collaboration knowledge base [ wp-includes/rest-api ]
+- People with most difficulty with the service: Who do not have a registered login and password [ ws-admin folder ]
+- Research methods used: State of the art technologies, ease of enhancements and off-the-shelf plugin tools/features [ wp-content/plugins ]
+- Key findings: User friendliness and compliance to guidelines makes the product long-lasting [wp-content/themes]
+- Documentation of Findings: Kanban Dashboard accessible from within Tool [Kanban plug in]
+- Frequency of Testing by End-Users: Continuous through-out development [Jenkins Build Job – PhpUnits of PlugIns]
 
-
+*Play-2*
 
 
 
