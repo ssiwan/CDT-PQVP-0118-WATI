@@ -321,6 +321,66 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 - Datasets made available to the public: The tool is not dependent on any data sets, so does not include any datasets.
 
 
+**c. Technical Approach Requirement Checklist: **
+
+a. WATI President Srinivas (Srinivas@wati.com) is Prototype Signoff Authority.	
+
+b. Five (5) of the labor categories as identified in Attachment B: PQVP AD-DS Labor Category Descriptions; 
+ - krishna@wati.com (Product Manager-1)
+	- sivakumar.a@wati.com (Delivery Manager-10)
+	- vaibhav.k@wati.com  (Technical Architect-2)
+	- sravanthi.k@wati.com (Frontend Web Developer-6)
+	- vijay@wati.com (Business Analyst – 12) 
+
+c. Agile User Stories were based on People need as obtaining through involvement. 
+ 
+d. Used three (3) “user-centric design” techniques and/or tools; 
+•	WordPress Web framework, 
+•	Swagger OpenAPI RESTful Web Services, 
+•	Docker OS – Virtualization Deployment.
+
+e. Used GitHub to document code commits: https://github.com/watipqvp/CDT-PQVP-0118-WATI
+
+f. Used Swagger OpenAPI to document the RESTful API, and provided a link to the Swagger OpenAPI; 
+  [http://96.67.213.65/swagger.json] from within tool: [swagger url="http://96.67.213.65/swagger.json"]
+
+g. Complied with Section 508 of the Americans with Disabilities Act and WCAG 2.0; 
+	Used the graphically designable “Site Origin” Layout Manger and Widget Bundle-Set. 
+
+h. Used ‘wordpress’ design style guide and/or a pattern library. 
+
+i. Performed minimum usability tests with people and automated tool tests.  
+
+j. Agile Sprints (tracked through Kanban boards) used for iterative development.
+
+k. Used responsive theme to work on multiple devices
+
+l. Used five (5) modern2 and open-source technologies: 
+•	Kanban for Agile Sprint 
+•	Site Origin Widget Sets for Blog Creation graphically
+•	Gravitate for Automated Testing
+•	Oasis Workflow for Publish Workflow Process 
+•	Database-Browser for Database administrative tasks
+
+m. Deployed the prototype on Docker as a Service (IaaS) or Platform as Service (PaaS) hosted by Hyper-V Wati Virtual Platform. 
+
+n. The PHP PlugIns are provided with PHPUnit automated unit tests. 
+
+o. Jenkins is used as a continuous integration system to automate the running of tests and continuously 
+               deploy the code to the IaaS or PaaS.  
+
+p. GitHub with SourceTree used as configuration management; 
+
+q. Jenkins is Setup for continuous monitoring to alert build/testing failures;  
+
+r. Deployed the software in an open source container, Docker (i.e., utilized operating-system-level virtualization);  
+
+s. Provided sufficient documentation to install and run their prototype on another machine;
+	Details are provided as a Knowledge Post within the tool. 
+
+t. The prototype and underlying platform are openly licensed and free of charge.  
+
+
 
 
 
