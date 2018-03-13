@@ -176,41 +176,41 @@ The contextly settings can be configured so as to prompt to search and pick rela
   
 **a. Code flow and Deployment**
 
-Code in the GITHub is available at the following URL: https://github.com/watipqvp/CDT-PQVP-0118-WATI
-The code organized in the root folder **CDT-PQVP-0118-WATI** consists of:
+Code in the GITHub URL: https://github.com/watipqvp/CDT-PQVP-0118-WATI
+The code root folder **CDT-PQVP-0118-WATI** consists of:
 - wp-admin     
 - wp-content  
 - wp-includes 
 
-Some of the important files in root folder include:
+The important files in root folder include:
 - wp-config.php: Contains DB credentials and authorization keys.
 - wp-login.php:  User authentication operations code such as password handling.
 - wp-mail.php:   Generates Wordpress post messages from the Incoming User emails.
-- swagger.json:  Open API REST specifications made available to web clients.
+- swagger.json:  Open API REST specifications.
 
 ![alt text](https://github.com/watipqvp/CDT-PQVP-0118-WATI/blob/master/wp-includes/images/README-ImageGallery/KMT-ServerView.png)
 
 
-**b. Tool compliance to US Digital Services Playbook**
+**b. Tool compliance - Attachment 2 of RFI**
 
 
-Note: Whenever Plug in mentioned, it refers to folder wp-content/plugins folder in repository.
-Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/kanban/board?board_id=1
+Note: Plug refers to folder wp-content/plugins in repository.
+Agile menu is “Kanban” or URL: http:// 96.67.213.65/kanban/board?board_id=1
 
 *Play-1*
 - Primary Users: Youngsters, Elder People, Disabled persons, both experienced and non-experienced in web technologies operating with different electronic devices [ Users and User AccessRoles PlugIns ]
-- User needs Addressed: User friendly and platform independent for deployment and easy hosting [ SiteOrigin PlugIn, RichTinyMCE PlugIns ]
+- User needs Addressed: User friendly and platform-independent for deployment and easy hosting [ SiteOrigin PlugIn, RichTinyMCE PlugIns ]
 - User need for this service: Need for a social collaboration knowledge base [ wp-includes/rest-api ]
-- People with most difficulty with the service: Who do not have a registered login and password [ ws-admin folder ]
+- People with most difficulty with the service: Users with no registered login and password [ ws-admin folder ]
 - Research methods used: State of the art technologies, ease of enhancements and off-the-shelf plugin tools/features [ wp-content/plugins ]
 - Key findings: User friendliness and compliance to guidelines makes the product long-lasting [wp-content/themes]
 - Documentation of Findings: Kanban Dashboard accessible from within Tool [Kanban plug in]
-- Frequency of Testing by End-Users: Continuous through-out development [Jenkins Build Job – PhpUnits of PlugIns]
+- Frequency of Testing by End-Users: Continuous through-out development
 
 *Play-2*
 - Current Approach: The knowledge content in the form of Blogs can be searched internally or external world through keyword(s)[wp-autosearch PlugIn] 
-- Pain points: There are no known Pain points. Knowledge collaboration is a concept that eliminates the major pain-point of rework. 
-- Place of tool in overall big picture: Off-the-shelf plug-and-play Customization to handle operations privately and only go public when required [PlugIns Folder]
+- Pain points: None. Knowledge collaboration is a concept that eliminates the major pain-points of rework. 
+- Place of tool in overall big picture: Scalable both from functionality and performance perspective.  [PlugIns Folder]
 - Metrics of Tool Services: SEO tools are in-built to provide the metrics. [google-analytics-for-wordpress, cms-tree-page-view PlugIn]
 
 *Play-3*
@@ -249,10 +249,10 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 - Add or remove a feature from the service: Product Administrator uses can use Left Panel – “PlugIns” to add/remove any service. [PlugIns Folder]
 
 *Play-7*
-- WATI, headed by Srinivas.Veeramasu, works exclusively on Government projects.
+- WATI works exclusively on Government projects.
 
 *Play-8*
-- Choice of development stack: Wordpress web framework, MySQL DB, Docker/Hyper-V virtual machine. The choice of technologies is as per requirement for Opensource technologies with off-the shelf modules [IP: 96.67.213.65]
+- Choice of development stack: Wordpress web framework, MySQL DB, Docker/Hyper-V virtual machine. The choice of technologies - Opensource technologies with off-the shelf modules. [IP: 96.67.213.65]
 - Choice of databases: MySQL DB, because it is opensource. [WP-DBManager, Ari Adminer WordPress Database Manager PlugIns]
 - Learning time for a new development team: 2 to 3 days of training for someone who has basic web technologies experience. [ReadMe.md]
 
@@ -260,15 +260,15 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 - Service hosting: Hosted on WATI server farm in Los Angeles, CA. 
 - Hardware platform: 4 TB hard disk, 4 CPU Server machine. 
 - Demand or usage pattern for the service: Can easily support 10+ concurrent users. Total users can be much higher.  There can be some bottleneck with email traffic.
-- Service impact due to surge in traffic or load:Depends on network and hardware capabilities [Jetpack plugin]
-- Hosting environment capacity:We can scale to support any bandwidth by moving to cloud [Jetpack plugin]
+- Service impact due to surge in traffic or load:Depends on network and hardware capabilities[Jetpack plugin]
+- Hosting environment capacity:We can scale to support any bandwidth with cloud deployment[Jetpack plugin]
 - Duration to provision a new resource: Provisioning:
-    - Software will take no more than a couple of hours. 
-    - Hardware infrastructure can take few days. 
-    - Cloud solution will take tentatively maximum a day. 
+    - Software - a couple of hours.  
+    - Hardware infrastructure - few days. 
+    - Cloud solution - tentatively maximum a day.  
    [Load Balancer can be configured as per need]
 - Service scalability on demand:The system is loosely coupled REST API solution, it can easily scale to any bandwidth. 
-[ Multi site can be configures as per need]
+[ LoadBalancer, Multi site can be configures as per need]
 - Service Infrastructure Tariff: Cloud tariff is based on Hourly rate. Tool is hosted on-premise at WATI server farm. 
 [AWS can be a choice for high performing cloud environment]
 - Is the service Multi-Site:The service can be configured and hosted as multi-site -- multiple regions, zones. The solution is presently hosted as single site. 
@@ -276,7 +276,7 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 [AWS cloud deployment is a choice]
 - Impact of a prolonged downtime window:Solution can be easily hosted on cloud in the event of prolonged downtime.
 [AWS cloud deployment is a choice]
-- Built-In Data redundancy and impact of a catastrophic data loss:Implemented infrastructure/tool has hot backup.
+- Built-In Data redundancy and catastrophic data loss impact:Implemented infrastructure/tool has hot backup.
 [Database Backup Tool]
 - Reach to Hosting Environment Personnel:Time from person hosting provider is variable between 0 to few hours. [wpforms plugin - Contact Form address to cloud hosting contact personnel]
 
@@ -284,44 +284,44 @@ Kanban is accessible through “Kanban” menu or URL eg: http:// 96.67.213.65/k
 -Code Coverage by automated testing: Coverage is 100% for pure PHP plugIns. Other hybrid PlugIns are unit tested manually thoroughly. [Gravitate Tester PlugIn]
 - Bug fix cycle duration: A bug, when Identified will be resolved in few hours not more than a day. Functionality or feature enhancement can take from 1 to 3 days. [Kanban]
 - New Feature duration: New features will be configured using available open-source tools instead of coding from scratch. New functionality to code, can be developed in short sprints of few weeks duration.  [Kanban]
-- Frequency of builds: Build during development phase are created daily. [Jenkins] 
-- Test tools Usage: Jenkins CI/CD Plug-In tools are used to testing. [Gravitate Tester]
+- Builds Frequency: Build during development phase are created daily. [Jenkins] 
+- Test-tools Usage: Jenkins CI/CD Plug-In tools are used to testing. [Gravitate Tester]
 - Deployment automation or continuous integration tools: Jenkins has been used to continuous integration. [Jenkins]
 - Estimated maximum number of concurrent users: No limit, system will scale as per the need. [SEO Metrics]
 - Simultaneous users: Simultaneous User testing is validated through plug-ins. [Google PageSpeed Insights, SEO Metrics]
 - Service performance during exceeded target usage volume: Users will get graceful timeout message as response. 
-- Scaling strategy on sudden demand increase: System will proportionately use resources for optimum performance. 
+- Scaling strategy on sudden demand increase: System resources configurable for optimum performance. 
 
 *Play-11*
-- User notification of collection of personal data: Users configuration module collects basic user demographics. User acceptance is mandatory before storing details. [Users Forms] 
+- User notification of collection of personal data: Users configuration module collects basic user demographics. User acceptance is mandatory before storing details. [Users Forms, AIPlugIns] 
 - Collection of Information: The user data is just the minimum required to maintain user account and it is highly confidential. [Users Forms]
-- User access to correct, delete, or remove personal information:Only administrator and User himself have the access to information for correction or modification. User deletion can be done only by Admin. [Users List]
+- User access to personal information:Only administrator and User himself have the access to information for correction or modification. User deletion can be done only by Admin. [Users List]
 - Personal information security: No personal information will be shared with other services, people, or partners. [Users Forms]
 - Security Vulnerability Testing: Security testing, firewall port monitoring is done through a plug-In and also using Anti-Virus. 
 [Wordfence Security – Firewall & Malware PlugIn]
 - Reporting a security issue: Through an eMail to the contact person, user can report a security issue. [WPForms]
 
 *Play-12*
-- Key metrics for the service: Number of users, operations, duration of usage are some of the important metrics out of all SEO metrics which are captured. [Google Analytics PlugIn]
+- Key metrics for the service: Number of users, operations, duration of usage are some of the important metrics out of all SEO metrics captured. [Google Analytics PlugIn]
 - Performance of Metrics over the life of the service: The metrics are collected over the life of service across all operations and users.
 - System monitoring tools: The product is in-built with SEO tools which monitor the metrics. General server operations are measurable through OS standard tools for memory, CPU cycle, stack, heap etc.,
 - Targeted average service response time in seconds: The response time duration is dependent based on load, but within required limits. 
 - Average response time and percentile breakdown: The response time duration is variable and dependent on load.
 - Service Started Versus Failed Status: System SEO Metrics shows the number of failed transactions.
 - Service’s monthly uptime target: 99.99 is our monthly uptime target. 
-- Service’s monthly uptime -- Including/Excluding scheduled maintenance: 99.99% uptime in either case with or without maintenance window.
+- Service’s monthly uptime all inclusive: 99.99% uptime in either case with or without maintenance window.
 - Automated alerts on incidents: Email alerts when a service goes down for some reason [PowerShell script, cloud notification]
 - Post incident report process: We look through the Log and Metrics to assess problem condition to determine the resolution.
-- Tools to measure user behavior: Intelligent plugins constantly learn to improve on user behavior. 
-- Tools or technologies are used for A/B testing: Web app automated testing will be used using open source technologies to determine performance of one-webpage over the other. 
+- User behavior: Intelligent plugins constantly learn to improve on user behavior. 
+- A/B testing: Web app automated testing will be used using open source technologies to determine performance of one-webpage over the other. 
 - Customer Satisfaction: Through customer feedback of issues, customer satisfaction is measured. [WPForms]
 
 *Play-13*
-- Collection of user feedback for bugs and issues: Administrator can configure an opensource PlugIn of choice which can allow users to log defects and track status. [WPForms ]
+- Collection of user feedback for bugs and issues: Administrator can configure an opensource PlugIn of choice to allow users to log defects and track status. [WPForms ]
 - API capabilities, uses and documentation: All the data commit and retrieve operations can be done through REST API and swagger/OpenAPI documentation has the details. [Embed Swagger PlugIn]
-- Is the codebase not released under an open source license: Entire Code is Open-Source and unobfuscated.
-- Available open source components to the public: All the components are opensource off-shelf plug-play Javascript/PHP modules.
-- Datasets made available to the public: The tool is not dependent on any data sets, so does not include any datasets.
+- Codebase release under open source license: Entire Code is Open-Source and unobfuscated.
+- Public open source components: All the components are opensource off-shelf plug-play Javascript/PHP modules.
+- Public Datasets: The tool is not dependent on any data sets, so does not include any datasets.
 
 
 **c. Technical Approach Requirement Checklist:**
@@ -347,7 +347,7 @@ e. Used GitHub to document code commits: https://github.com/watipqvp/CDT-PQVP-01
 f. Used Swagger OpenAPI to document the RESTful API, and provided a link to the Swagger OpenAPI; 
   [http://96.67.213.65/swagger.json] from within tool: [swagger url="http://96.67.213.65/swagger.json"]
 
-g. Complied with Section 508 of the Americans with Disabilities Act and WCAG 2.0; 
+g. Section 508 of the Americans with Disabilities Act and WCAG 2.0; 
 	Used the graphically designable “Site Origin” Layout Manger and Widget Bundle-Set. 
 
 h. Used ‘wordpress’ design style guide and/or a pattern library. 
@@ -365,21 +365,19 @@ l. Used five (5) modern2 and open-source technologies:
 •	Oasis Workflow for Publish Workflow Process 
 •	Database-Browser for Database administrative tasks
 
-m. Deployed the prototype on Docker as a Service (IaaS) or Platform as Service (PaaS) hosted by Hyper-V Wati Virtual Platform. 
+m. Docker container deployment environment as a Service (IaaS) or Platform as Service (PaaS).  
 
 n. The PHP PlugIns are provided with PHPUnit automated unit tests. 
 
-o. Jenkins is used as a continuous integration system to automate the running of tests and continuously 
-               deploy the code to the IaaS or PaaS.  
+o. Jenkins, GitHub, httpd for CI, Gavitate for auto-testing and Docker  as IaaS or PaaS.  
 
 p. GitHub with SourceTree used as configuration management; 
 
 q. Jenkins is Setup for continuous monitoring to alert build/testing failures;  
 
-r. Deployed the software in an open source container, Docker (i.e., utilized operating-system-level virtualization);  
+r. Deployed the software in an open source container, Docker.   
 
-s. Provided sufficient documentation to install and run their prototype on another machine;
-	Details are provided as a Knowledge Post within the tool. 
+s. Install Instructions are provided as an Article in tool 
 
 t. The prototype and underlying platform are openly licensed and free of charge.  
 
