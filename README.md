@@ -26,6 +26,56 @@ West Advanced Technologies, Inc. (WATI) developed the Prototype “Knowledge Min
 |   |  |
 
 ------------------------
+# Installation Instructions
+The below instructions are for the IT administrative team who intends to install the **"Knowledge Miner"** tool as single site or multi sited. If you want to work with Online hosted tool, skip this step and go ahead with tool help in the following section. 
+
+**Standalone Installation**
+1. Download the Code as ZIP from: https://github.com/watipqvp/CDT-PQVP-0118-WATI 
+2. If you have HTTP Server, PHP, MySQL DB already installed, skip this step 
+	Install XAMPP (which includes MySQLDB, PHP and HTTP Server) by downloading XAMPP from:
+		https://www.apachefriends.org/index.html
+	For windows, lunux or other OS as applicable
+
+		If you do not want to install XAMPP, please install the following:
+			PHP (http://php.net/manual/en/install.php)
+			MySQL (https://dev.mysql.com/downloads/installer/)
+			Apache HTTP Server(https://httpd.apache.org/docs/2.4/platform/windows.html)
+			Wordpress (https://wordpress.org/)
+
+3. Create an empty database "wordpress" in MYSQL DB.
+4. Copy all the unzipped contents to your HTTP Server's deployment folder /htdocs.
+5. Go to Browser and type the Server IP such as http://localhost
+	This will launch wordpress configuration Page:
+		- Select Language, then 
+		- Enter 
+		       Sitename: pqvp
+		       username: admin1
+		       password: temp123
+		       email: Your Email ID 
+		
+	This will take you to wordpress welcome screen and allows you to login with admin1/temp1223
+6. Knowledge Miner - Tool Setup
+	Edit the file **"wordpress3.sql"** in the htdocs folder in EDIT mode 
+		and replace the IP localhost with your IP, if different from localhost. 		
+	Now run this SQL file in your wordpress database of MySQL DB Server.
+
+7. Now launch the browser new tab or refresh the previous one and login with 
+		http://<server-ip>/wp-login.php
+	enter admin1/temp123 or any other initially given login IDs in your readme.MD file
+		eg: 	http://96.67.213.65
+			http://96.67.213.65/wp-login.php
+
+
+NOTE:: If the tool does not launch, edit wp-config.php file in the root of htdocs and ensure 
+		that DB credentials hostname, user, password are as per your MYSQL database. 
+
+8. Go to PlugIns Menu on the left side, Click on "Active" to activate any plugin that is not activated. 
+
+9. Tool is all set to start working. 
+
+10. Thank you, All the Best ! 
+
+------------------------
 
 # a.  Knowledge Creation
 
