@@ -25,6 +25,11 @@ West Advanced Technologies, Inc. (WATI) developed the Prototype “Knowledge Min
 | **Login in User IDs (Password: temp123)** | admin1, admin2, author1, author2, editor1, editor2, subscriber1, subscriber2, contributor1, contributor2 |
 |   |  |
 
+**Note: As per preset sample User Access Levels, the following users have different access to pre-created knowledge content** 
+- (Group-1): editor2, subscriber2, contributor2, author2 - Have access to all the existing content 
+- (Group-2): editor1, subscriber1, contributor1, author1 - Do not have access to most of the existing content
+- Subscriber2 : User can see only Articles created by this user eg: Installation Instructions Blog Post in the Tool
+- Subscriber1: Does not have access to most of the existing content not authored by this user
 ------------------------
 # Installation Instructions
 The below instructions are for the IT administrative team who intends to install the **"Knowledge Miner"** tool as single site or multi sited. If you want to work with Online hosted tool, skip this step and go ahead with tool help in the following section. 
@@ -51,15 +56,15 @@ The below instructions are for the IT administrative team who intends to install
 		       Sitename: pqvp
 		       username: admin1
 		       password: temp123
-		       email: Your Email ID 
+		       email: admin1@wati.com 
 		
 	This will take you to wordpress welcome screen and allows you to login with admin1/temp1223
 6. Knowledge Miner - Tool Setup
 	Edit the file **"wordpress3.sql"** in the htdocs folder in EDIT mode 
 		and replace the IP localhost with your IP, if different from localhost. 		
 	Now run this SQL file in your wordpress database of MySQL DB Server.
-
-7. Now launch the browser new tab or refresh the previous one and login with 
+7. Restart MySQL Server and Web (HTTP) Server
+8. Now launch the browser new tab or refresh the previous one and login with 
 		http://<server-ip>/wp-login.php
 	enter admin1/temp123 or any other initially given login IDs in your readme.MD file
 		eg: 	http://96.67.213.65
@@ -69,12 +74,31 @@ The below instructions are for the IT administrative team who intends to install
 NOTE:: If the tool does not launch, edit wp-config.php file in the root of htdocs and ensure 
 		that DB credentials hostname, user, password are as per your MYSQL database. 
 
-8. Go to PlugIns Menu on the left side, Click on "Active" to activate any plugin that is not activated. 
+9. Go to PlugIns Menu on the left side, Click on "Active" to activate any plugin that is not activated. 
 
-9. Tool is all set to start working. 
+10. Tool is all set to start working. 
 
-10. Thank you, All the Best ! 
+11. Thank you, All the Best ! 
 
+------------------------
+**Docker Installation**
+1. Download the Code as ZIP from: https://github.com/watipqvp/CDT-PQVP-0118-WATI  
+2. Unzip contents to a folder
+3. Create a folder /data  and move the DB-Dump file wordpress3.sql
+4. Run the docker and execute the following docker command at docker prompt:
+	$ docker-commpose up
+5. Now launch the browser new tab or refresh the previous one and login with 
+		http://<server-ip>/wp-login.php
+	enter admin1/temp123 or any other initially given login IDs in your readme.MD file
+		eg: 	http://96.67.213.65
+			http://96.67.213.65/wp-login.php
+			
+			
+NOTE:: 1. Automated Builds are possible by linking Docker to Github as follows:
+	https://docs.docker.com/docker-hub/github/#github-service-hooks
+      2. Ensure that DB Hostname is valid for Wordpress Website to authenticate DB correctly.
+      3. Ensure that there are no Port conflicts.
+  
 ------------------------
 
 # a.  Knowledge Creation
