@@ -20,8 +20,8 @@ West Advanced Technologies, Inc. (WATI) developed the Prototype “Knowledge Min
 
 |   |  |
 | ------------- | ------------- |
-| **Tool Hosted IP:**    | http://96.67.213.65/wp-login.php  |
 | **GitHub Code Link:**  | https://github.com/watipqvp/CDT-PQVP-0118-WATI  |
+| **Tool Hosted IP:**    | http://96.67.213.65  |
 | **Login in User IDs:** | admin1, admin2, author1, author2, editor1, editor2, subscriber1, subscriber2, contributor1, contributor2 |
 | **Common Password:**   | temp123 |
 |   |  |
